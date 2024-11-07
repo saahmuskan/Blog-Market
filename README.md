@@ -62,13 +62,13 @@ Follow these steps to set up the project locally:
 
 4. **Run MongoDB** if it's not running:
    ```bash
-   mongod
+   mongosh
    ```
 
 5. **Run the server**:
    ```bash
    cd server
-   npm run dev
+   npm run start
    ```
    The server should be running at [http://localhost:8080](http://localhost:8080).
 
